@@ -14,136 +14,70 @@
                 <img class="w-8" src="assets/images/logo.png" alt="">
                 <p class="text-2xl">Code<span class="font-bold">Hub</span></p>
             </div>
-            <div class="flex gap-4">
-            <div class="flex gap-2 items-center bg-gray-200 px-4 py-2 rounded-2xl">
-                <img class="w-6" src="assets/images/checkbox.png" alt="">
-                <p class="self-start text-xl font-bold">23</p>
+            <div class="">
+                <button id="backToHome" class="bg-blue-500 px-4 py-2 rounded-md text-white font-semibold cursor-pointer">Back to Home</button>
             </div>
-            <div class="p-2 bg-gray-200 rounded-full self-center">
-                <img class="w-8" src="assets/images/theme-btn.png" alt="">
-            </div>
-        </div>
         </nav>
     </header>
     <main class="bg-gray-200">
-        <section class="bg-white max-w-7xl mx-auto p-4 rounded-xl">
-            <div>
-              <div>
-                <div class="grid grid-flow-row grid-cols-4 gap-4 mt-4 pb-4 border-b-2 border-dashed">
-                  <div class="bg-gray-200 rounded-xl flex items-center gap-4 px-6">
-                    <div class="p-3 rounded-full bg-white">
-                      <img src="assets/images/checkbox.png" alt="">
+        <section class="max-w-7xl mx-auto">
+            <div class="text-center">
+                <p class="font-bold text-2xl pb-4">Blogs</p>
+            </div>
+            <div class="flex gap-4 flex-col">
+                <!-- Q/A Block -->
+                <div class="bg-white rounded-xl">
+                    <div class="border-dashed border-b-2 p-4">
+                        <p class="font-bold text-xl">Question-1: What are the different ways to select an element in the DOM?</p>
                     </div>
-                    <div class="flex flex-col">
-                      <p>Task Assigned</p>
-                      <p class="font-bold">6</p>
+                    <div class="p-4">
+                        <p class="text-gray-500">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus consectetur sint voluptatem minima dolore repellat magni deserunt quo enim rem? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus consectetur sint voluptatem minima dolore repellat magni deserunt quo enim rem?</p>
                     </div>
-                  </div>
-                  <div class="bg-blue-500 rounded-xl flex items-center justify-center gap-2 px-6 col-span-2" id="goToBlog">
-                    <img width="w-6" src="assets/images/board.png" alt="">
-                    <p class="text-white text-xl">Discover Something New Today!</p>
-                  </div>
-                  <div class="bg-gray-200 rounded-xl flex items-center px-6 py-8 gap-4">
-                    <div class="p-3 rounded-full bg-white">
-                      <img src="assets/images/calender.png" alt="">
-                    </div>
-                    <p id="currentDay">Today</p>
-                  </div>
                 </div>
-                <div class="grid grid-flow-row grid-cols-3 gap-4 pt-4">
-                  <!-- Card -->
-                  <div class=" bg-gray-200 rounded-xl p-4 ">
-                    <p class="bg-white rounded-xl py-1 px-2 w-max mb-1.5">Shop Ease</p>
-                    <h2 class=" font-bold text-xl mb-2">Fix Mobile Button Issue</h2>
-                    <p class=" p-2 bg-white rounded-xl text-gray-500 mb-3">Troubleshooting and resolving problems with buttons on mobile devices, such as unresponsiveness, layout issues, small hit areas, or touch event failures.</p>
-                    <div class="flex justify-between items-center">
-                      <div>
-                        <p class=" text-gray-500">Deadline</p>
-                        <p>21 March 2025</p>
-                      </div>
-                      <button class=" bg-blue-500 px-4 py-2 rounded-md text-white font-semibold cursor-pointer">Completed</button>
+
+                <!-- Q/A Block -->
+                <div class="bg-white rounded-xl">
+                    <div class="border-dashed border-b-2 p-4">
+                        <p class="font-bold text-xl">Question-2: What is the difference between innerHTML, innerText, and textContent ?</p>
                     </div>
-                  </div>
-                  
-                  <!-- Card -->
-                  <div class=" bg-gray-200 rounded-xl p-4 ">
-                    <p class="bg-white rounded-xl py-1 px-2 w-max mb-1.5">Shop Ease</p>
-                    <h2 class=" font-bold text-xl mb-2">Fix Mobile Button Issue</h2>
-                    <p class=" p-2 bg-white rounded-xl text-gray-500 mb-3">Troubleshooting and resolving problems with buttons on mobile devices, such as unresponsiveness, layout issues, small hit areas, or touch event failures.</p>
-                    <div class="flex justify-between items-center">
-                      <div>
-                        <p class=" text-gray-500">Deadline</p>
-                        <p>21 March 2025</p>
-                      </div>
-                      <button class=" bg-blue-500 px-4 py-2 rounded-md text-white font-semibold cursor-pointer">Completed</button>
+                    <div class="p-4">
+                        <p class="text-gray-500">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus consectetur sint voluptatem minima dolore repellat magni deserunt quo enim rem? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus consectetur sint voluptatem minima dolore repellat magni deserunt quo enim rem?</p>
                     </div>
-                  </div>
-    
-                  <!-- Card -->
-                  <div class=" bg-gray-200 rounded-xl p-4 ">
-                    <p class="bg-white rounded-xl py-1 px-2 w-max mb-1.5">Shop Ease</p>
-                    <h2 class=" font-bold text-xl mb-2">Fix Mobile Button Issue</h2>
-                    <p class=" p-2 bg-white rounded-xl text-gray-500 mb-3">Troubleshooting and resolving problems with buttons on mobile devices, such as unresponsiveness, layout issues, small hit areas, or touch event failures.</p>
-                    <div class="flex justify-between items-center">
-                      <div>
-                        <p class=" text-gray-500">Deadline</p>
-                        <p>21 March 2025</p>
-                      </div>
-                      <button class=" bg-blue-500 px-4 py-2 rounded-md text-white font-semibold cursor-pointer">Completed</button>
-                    </div>
-                  </div>
-    
-                  <!-- Card -->
-                  <div class=" bg-gray-200 rounded-xl p-4 ">
-                    <p class="bg-white rounded-xl py-1 px-2 w-max mb-1.5">Shop Ease</p>
-                    <h2 class=" font-bold text-xl mb-2">Fix Mobile Button Issue</h2>
-                    <p class=" p-2 bg-white rounded-xl text-gray-500 mb-3">Troubleshooting and resolving problems with buttons on mobile devices, such as unresponsiveness, layout issues, small hit areas, or touch event failures.</p>
-                    <div class="flex justify-between items-center">
-                      <div>
-                        <p class=" text-gray-500">Deadline</p>
-                        <p>21 March 2025</p>
-                      </div>
-                      <button class=" bg-blue-500 px-4 py-2 rounded-md text-white font-semibold cursor-pointer">Completed</button>
-                    </div>
-                  </div>
-    
-                  <!-- Card -->
-                  <div class=" bg-gray-200 rounded-xl p-4 ">
-                    <p class="bg-white rounded-xl py-1 px-2 w-max mb-1.5">Shop Ease</p>
-                    <h2 class=" font-bold text-xl mb-2">Fix Mobile Button Issue</h2>
-                    <p class=" p-2 bg-white rounded-xl text-gray-500 mb-3">Troubleshooting and resolving problems with buttons on mobile devices, such as unresponsiveness, layout issues, small hit areas, or touch event failures.</p>
-                    <div class="flex justify-between items-center">
-                      <div>
-                        <p class=" text-gray-500">Deadline</p>
-                        <p>21 March 2025</p>
-                      </div>
-                      <button class=" bg-blue-500 px-4 py-2 rounded-md text-white font-semibold cursor-pointer">Completed</button>
-                    </div>
-                  </div>
-    
-                  <!-- Card -->
-                  <div class=" bg-gray-200 rounded-xl p-4 ">
-                    <p class="bg-white rounded-xl py-1 px-2 w-max mb-1.5">Shop Ease</p>
-                    <h2 class=" font-bold text-xl mb-2">Fix Mobile Button Issue</h2>
-                    <p class=" p-2 bg-white rounded-xl text-gray-500 mb-3">Troubleshooting and resolving problems with buttons on mobile devices, such as unresponsiveness, layout issues, small hit areas, or touch event failures.</p>
-                    <div class="flex justify-between items-center">
-                      <div>
-                        <p class=" text-gray-500">Deadline</p>
-                        <p>21 March 2025</p>
-                      </div>
-                      <button class=" bg-blue-500 px-4 py-2 rounded-md text-white font-semibold cursor-pointer">Completed</button>
-                    </div>
-                  </div>
-    
                 </div>
-              </div>
-              <div>
-    
-              </div>
+
+                <!-- Q/A Block -->
+                <div class="bg-white rounded-xl">
+                    <div class="border-dashed border-b-2 p-4">
+                        <p class="font-bold text-xl">Question-3: What is event delegation in the DOM?</p>
+                    </div>
+                    <div class="p-4">
+                        <p class="text-gray-500">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus consectetur sint voluptatem minima dolore repellat magni deserunt quo enim rem? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus consectetur sint voluptatem minima dolore repellat magni deserunt quo enim rem?</p>
+                    </div>
+                </div>
+
+                <!-- Q/A Block -->
+                <div class="bg-white rounded-xl">
+                    <div class="border-dashed border-b-2 p-4">
+                        <p class="font-bold text-xl">Question-4: What is event bubbling in the DOM?</p>
+                    </div>
+                    <div class="p-4">
+                        <p class="text-gray-500">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus consectetur sint voluptatem minima dolore repellat magni deserunt quo enim rem? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus consectetur sint voluptatem minima dolore repellat magni deserunt quo enim rem?</p>
+                    </div>
+                </div>
+
+                <!-- Q/A Block -->
+                <div class="bg-white rounded-xl">
+                    <div class="border-dashed border-b-2 p-4">
+                        <p class="font-bold text-xl">Question-5: How do you create, add, and remove elements using JavaScript?</p>
+                    </div>
+                    <div class="p-4">
+                        <p class="text-gray-500">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus consectetur sint voluptatem minima dolore repellat magni deserunt quo enim rem? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus consectetur sint voluptatem minima dolore repellat magni deserunt quo enim rem?</p>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
     
-    <script src="assets/scripts/main.js"></script>  
+    <script src="assets/scripts/blog.js"></script>  
 </body>
 </html>
